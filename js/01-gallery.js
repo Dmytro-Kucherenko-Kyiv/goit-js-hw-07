@@ -11,7 +11,7 @@ const original = galleryItems.map((item) => item.original).join(' ');
 const description = galleryItems.map((item) => item.description).join(' ');
 
 galleryItems.forEach(image => {
-const item = `<div class="gallery__item">
+  const item = `<div class="gallery__item">
   <a class="gallery__link" href="${image.original}" target="_self" rel="noreferrer noopener">
     <img
       class="gallery__image"
